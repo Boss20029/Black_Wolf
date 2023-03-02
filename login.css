@@ -1,0 +1,33 @@
+body{
+
+    background-image: url("photo/admin1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    border: inset black 1px;
+    height: 300px;
+    padding-top: 100px;
+    border-radius: 50px;
+width: 300px;
+
+}
+#l{
+ margin-left: 20px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 1200px ;
+    margin-top: -50px;
+}
+#m{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#n{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

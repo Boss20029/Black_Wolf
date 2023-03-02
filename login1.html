@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Wolf Login Page</title>
+  <link rel="stylesheet" href="login1.css">
+  <link rel="icon" type="image/png" href="photo/logo1.png"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Black Wolf login for admin</h1>
+    <a href="index.html"><img src="photo/logo1.png" alt="logo" id="logo"></a>
+    <form onsubmit="return login()">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <script src="login1.js"></script>
+</body>
+</html>

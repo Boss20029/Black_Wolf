@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Wolf Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="photo/logo1.png"/>
+  <style>
+
+
+
+
+
+
+.container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.logo img {
+  
+  height: 200px;
+ 
+}
+
+form {
+  margin-top: 50px;
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #F7F7F7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+form button[type="submit"] {
+  background-color: #000;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #333;
+}
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+     <a href="index.html"> <img src="photo/logo1.png" alt="Black Wolf Logo"></a>
+    </div>
+    <form>
+        <center><p>رقم التحويل اتصالات كاش</p></center>
+        <center>  <h1>Hidden</h1></center> 
+        <center>  <p>     للرجوع اضغط علي الشعار و اقصي كمية للشراء 3 </p></center> 
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email"> الكمية</label>
+      <input type="number" id="email" name="email" required>
+      <label for="select">select</label>
+    <select name="select" id="select">
+<option value="Puma">Puma</option>
+<option value="Zara">Zara</option>
+<option value="H&M">H&M</option>
+    </select>
+    
+
+      <label for="message"> رفع صورة الدفع </label>
+      <input type="file" required>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
